@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Никита\Documents\VuGen\Scripts\UC01_registrationAOS
+-ID:\LoadRunner_1\include
+-ec:\users\никита\documents\vugen\scripts\uc01_registrationaos\\logfile.log
+c:\users\никита\documents\vugen\scripts\uc01_registrationaos\\combined_UC01_registrationAOS.c
+c:\users\никита\documents\vugen\scripts\uc01_registrationaos\\pre_cci.c

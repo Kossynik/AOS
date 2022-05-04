@@ -1,0 +1,13 @@
+DELETE /order/api/v1/carts/442056830 HTTP/1.1
+Authorization: Basic R2FycmV0MjMxOjFGYXMx
+Referer: http://18.212.178.84/
+Origin: http://18.212.178.84
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: 18.212.178.84
+Cookie: JSESSIONID=67606DB3C2166123ED8FA8CA3A0C3E9B; _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1
+Content-Length: 0
+

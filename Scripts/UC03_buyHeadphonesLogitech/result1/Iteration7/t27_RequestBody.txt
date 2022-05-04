@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Velgarde 2503","addressLine2":"","city":"Alborg","country":"dk","
+""postalCode":"0929","state":"region"},"secustomerName":"Mick Gordon","secustomerPhone":450007,"
+""senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"A89F5DD443A17A9B6FB064"
+"A8F8CB5DFD"}"

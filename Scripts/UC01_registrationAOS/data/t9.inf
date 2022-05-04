@@ -1,0 +1,15 @@
+[t9]
+FileName1=t9.html
+URL1=http://18.212.178.84:8081//accountservice/ws/GetCountriesRequest
+Total=3
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=image/png
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_Bell.png
+URL2=http://18.212.178.84/css/images/Bell.png
+FileName3=t9_Check.png
+URL3=http://18.212.178.84/css/images/Check.png
+[ProtocolInfo]
+ProtocolId=QTWeb

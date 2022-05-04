@@ -1,0 +1,91 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 18.212.178.84",
+                "infFile": "t1.inf",
+                "time": 1651249379450
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1651249380122
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: GetAccountConfigurationRequest_2",
+                "infFile": "t4.inf",
+                "time": 1651249380734
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: categories",
+                "infFile": "t5.inf",
+                "time": 1651249381054
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t6.inf",
+                "time": 1651249381339
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: home-page.html",
+                "infFile": "t7.inf",
+                "time": 1651249382086
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: register-page.html",
+                "infFile": "t8.inf",
+                "time": 1651249387360
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: GetCountriesRequest_2",
+                "infFile": "t10.inf",
+                "time": 1651249388353
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: AccountCreateRequest_2",
+                "infFile": "t12.inf",
+                "time": 1651249393877
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1651249375104,
+                "rawEndTime": 1651249382095,
+                "thinkTime": 0.0,
+                "wastedTime": 0.17931580543518067
+            },
+            {
+                "transactionName": "clickCreateAccount",
+                "rawStartTime": 1651249387129,
+                "rawEndTime": 1651249388365,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01481485366821289
+            },
+            {
+                "transactionName": "createAccount",
+                "rawStartTime": 1651249388381,
+                "rawEndTime": 1651249393879,
+                "thinkTime": 5.000213,
+                "wastedTime": 0.00888824462890625
+            },
+            {
+                "transactionName": "UC01_registrationAOS",
+                "rawStartTime": 1651249375089,
+                "rawEndTime": 1651249393894,
+                "thinkTime": 10.004014999999999,
+                "wastedTime": 0.2030189037322998
+            }
+        ]
+    }
+]

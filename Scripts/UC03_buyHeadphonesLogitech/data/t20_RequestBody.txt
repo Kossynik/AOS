@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"Stat\",\"addressLine2\":\"\",\"city\":\"Paol\",\"country\":"
+"\"dk\",\"postalCode\":4433,\"state\":35},\"secustomerName\":\"Nikita Sobolev\",\"secustomerPho"
+"ne\":\"89225936182\",\"senumberOfProducts\":1,\"setransactionType\":\"SHIPPING_COST\",\"sessio"
+"nId\":\"66F110C18FF9FDAA6BEBCB3120CB6C2C\"}"

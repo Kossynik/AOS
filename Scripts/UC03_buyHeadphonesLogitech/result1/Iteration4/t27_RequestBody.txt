@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Disance 3442","addressLine2":"","city":"Viborg","country":"dk",""
+"postalCode":"0929","state":"region"},"secustomerName":"Sanct Monic","secustomerPhone":450004,""
+"senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"1CD9CC7CE626398A2E1F2E9"
+"28C99D99E"}"

@@ -1,0 +1,15 @@
+[t58]
+FileName1=t58.html
+URL1=http://18.212.178.84:8081//accountservice/ws/GetCountriesRequest
+Total=3
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_58.xml
+FileName2=t58_User.jpg
+URL2=http://18.212.178.84/css/images/User.jpg
+FileName3=t58_Shipex.png
+URL3=http://18.212.178.84/css/images/Shipex.png
+[ProtocolInfo]
+ProtocolId=QTWeb

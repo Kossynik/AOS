@@ -1,0 +1,11 @@
+[t55]
+FileName1=t55.html
+URL1=http://18.212.178.84:8081//accountservice/ws/GetAccountPaymentPreferencesRequest
+Total=1
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t55_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_55.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

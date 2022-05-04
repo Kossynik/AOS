@@ -1,0 +1,1200 @@
+Action.c(518):     me>Vanuatu</ns2:name><ns2:isoName>vu</ns2:isoName><ns2:phonePrefix>678</ns2:phonePrefix></
+Action.c(518):     ns2:Country><ns2:Country><ns2:id>231</ns2:id><ns2:name>Vatican</ns2:name><ns2:isoName>va</
+Action.c(518):     ns2:isoName><ns2:phonePrefix>379</ns2:phonePrefix></ns2:Country><ns2:Country><ns2:id>232</
+Action.c(518):     ns2:id><ns2:name>Vatican</ns2:name><ns2:isoName>va</ns2:isoName><ns2:phonePrefix>3906</ns2
+Action.c(518):     :phonePrefix></ns2:Country><ns2:Country><ns2:id>109</ns2:id><ns2:name>Venezuela</ns2:name>
+Action.c(518):     <ns2:isoName>ve</ns2:isoName><ns2:phonePrefix>58</ns2:phonePrefix></ns2:Country><ns2:Count
+Action.c(518):     ry><ns2:id>106</ns2:id><ns2:name>Vietnam</ns2:name><ns2:isoName>vn</ns2:isoName><ns2:phone
+Action.c(518):     Prefix>84</ns2:phonePrefix></ns2:Country><ns2:Country><ns2:id>12</ns2:id><ns2:name>Virgin 
+Action.c(518):     Islands (UK)</ns2:name><ns2:isoName>vg</ns2:isoName><ns2:phonePrefix>1284</ns2:phonePrefix
+Action.c(518):     ></ns2:Country><ns2:Country><ns2:id>11</ns2:id><ns2:name>Virgin Islands (USA)</ns2:name><n
+Action.c(518):     s2:isoName>vi</ns2:isoName><ns2:phonePrefix>1340</ns2:phonePrefix></ns2:Country><ns2:Count
+Action.c(518):     ry><ns2:id>107</ns2:id><ns2:name>Wales</ns2:name><ns2:isoName>uk</ns2:isoName><ns2:phonePr
+Action.c(518):     efix>44</ns2:phonePrefix></ns2:Country><ns2:Country><ns2:id>105</ns2:id><ns2:name>Wallis a
+Action.c(518):     nd Futuna Islands</ns2:name><ns2:isoName>wf</ns2:isoName><ns2:phonePrefix>861</ns2:phonePr
+Action.c(518):     efix></ns2:Country><ns2:Country><ns2:id>241</ns2:id><ns2:name>Yemen</ns2:name><ns2:isoName
+Action.c(518):     >ye</ns2:isoName><ns2:phonePrefix>967</ns2:phonePrefix></ns2:Country><ns2:Country><ns2:id>
+Action.c(518):     111</ns2:id><ns2:name>Zambia</ns2:name><ns2:isoName>zm</ns2:isoName><ns2:phonePrefix>260</
+Action.c(518):     ns2:phonePrefix></ns2:Country><ns2:Country><ns2:id>112</ns2:id><ns2:name>Zanzibar </ns2:na
+Action.c(518):     me><ns2:isoName>tz</ns2:isoName><ns2:phonePrefix>25524</ns2:phonePrefix></ns2:Country><ns2
+Action.c(518):     :Country><ns2:id>110</ns2:id><ns2:name>Zimbabwe </ns2:name><ns2:isoName>zw</ns2:isoName><n
+Action.c(518):     s2:phonePrefix>263</ns2:phonePrefix></ns2:Country></ns2:GetCountriesResponse></SOAP-ENV:Bo
+Action.c(518):     dy></SOAP-ENV:Envelope>
+Action.c(518): t=6718024ms: Request done "http://18.212.178.84:8081//accountservice/ws/GetCountriesRequest"  	[MsgId: MMSG-26000]
+Action.c(518): web_custom_request("GetCountriesRequest_2") was successful, 4177 body bytes, 673 header bytes, 77 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(530): Notify: Transaction "checkout" ended with a "Pass" status (Duration: 13,0259 Think Time: 10,0051 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(532): Notify: Transaction "paymentDetails" started.	[MsgId: MMSG-16999]
+Action.c(534): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(534): An unrecognized header ("Access-Control-Request-Headers") is being added  	[MsgId: MMSG-26595]
+Action.c(534): "Access-Control-Request-Headers: content-type,soapaction" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(534): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(537): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(537): An unrecognized header ("Access-Control-Request-Method") is being added  	[MsgId: MMSG-26595]
+Action.c(537): "Access-Control-Request-Method: POST" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(537): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(540): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(540): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(540): "Sec-Fetch-Mode: cors" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(540): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(543): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") started  	[MsgId: MMSG-26355]
+Action.c(545): t=6722984ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(545): t=6722984ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OPTIONS //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(545):     Referer: http://18.212.178.84/\r\n
+Action.c(545):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(545):     Access-Control-Request-Method: POST\r\n
+Action.c(545):     Sec-Fetch-Mode: cors\r\n
+Action.c(545):     Origin: http://18.212.178.84\r\n
+Action.c(545):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(545):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(545):     Accept-Encoding: gzip, deflate\r\n
+Action.c(545):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(545):     Accept: */*\r\n
+Action.c(545):     Connection: Keep-Alive\r\n
+Action.c(545):     Host: 18.212.178.84:8081\r\n
+Action.c(545):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(545):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(545):     Content-Length: 0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6722985ms: Inactive socket [1] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6722985ms: Closed connection [1] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6722985ms: Inactive socket [2] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6722985ms: Closed connection [2] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6723137ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     HTTP/1.1 200 \r\n
+Action.c(545):     X-Content-Type-Options: nosniff\r\n
+Action.c(545):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(545):     Cache-Control: no-store\r\n
+Action.c(545):     Pragma: no-cache\r\n
+Action.c(545):     Expires: 0\r\n
+Action.c(545):     X-Frame-Options: DENY\r\n
+Action.c(545):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Max-Age: 3600\r\n
+Action.c(545):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(545):     ion\r\n
+Action.c(545):     Access-Control-Allow-Origin: *\r\n
+Action.c(545):     Transfer-Encoding: chunked\r\n
+Action.c(545):     Date: Sat, 30 Apr 2022 04:48:42 GMT\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6723253ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     2\r\n
+Action.c(545): t=6723253ms: 7-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     \r\n
+Action.c(545):     0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6723253ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OK
+Action.c(545): t=6723253ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(554): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(554): "SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(554): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(557): Notify: Next row for parameter safePayLogin = 1 [table  = safePayLogin].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayLogin" =  "Garret"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Next row for parameter safePayPassword = 1 [table  = safePayPassword].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayPassword" =  "1Jkl2"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(557): t=6723254ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(557): t=6723254ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     POST //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(557):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(557):     Referer: http://18.212.178.84/\r\n
+Action.c(557):     SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest\r\n
+Action.c(557):     Origin: http://18.212.178.84\r\n
+Action.c(557):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(557):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(557):     Accept-Encoding: gzip, deflate\r\n
+Action.c(557):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(557):     Accept: */*\r\n
+Action.c(557):     Connection: Keep-Alive\r\n
+Action.c(557):     Host: 18.212.178.84:8081\r\n
+Action.c(557):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(557):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(557):     Content-Length: 513\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6723255ms: 513-byte request body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(557):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(557):     www.w3.org/2001/XMLSchema"><soap:Body><AddSafePayMethodRequest xmlns="com.advantage.online
+Action.c(557):     .store.accountservice"><safePayUsername>Garret</safePayUsername><accountId>442056830</acco
+Action.c(557):     untId><safePayPassword>1Jkl2</safePayPassword><base64Token>Basic R2FycmV0MjMxOjFGYXMx</bas
+Action.c(557):     e64Token></AddSafePayMethodRequest></soap:Body></soap:Envelope>
+Action.c(557): t=6723436ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     HTTP/1.1 200 \r\n
+Action.c(557):     X-Content-Type-Options: nosniff\r\n
+Action.c(557):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(557):     Cache-Control: no-store\r\n
+Action.c(557):     Pragma: no-cache\r\n
+Action.c(557):     Expires: 0\r\n
+Action.c(557):     X-Frame-Options: DENY\r\n
+Action.c(557):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Max-Age: 3600\r\n
+Action.c(557):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(557):     ion\r\n
+Action.c(557):     Access-Control-Allow-Origin: *\r\n
+Action.c(557):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(557):     SOAPAction: ""\r\n
+Action.c(557):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(557):     Content-Length: 408\r\n
+Action.c(557):     Date: Sat, 30 Apr 2022 04:48:42 GMT\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6723437ms: 408-byte response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(557):     ader/><SOAP-ENV:Body><ns2:AddSafePayMethodResponse xmlns:ns2="com.advantage.online.store.a
+Action.c(557):     ccountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:id>0</ns2:id><ns2:re
+Action.c(557):     ason>SafePay data updated successfully</ns2:reason></ns2:StatusMessage></ns2:AddSafePayMet
+Action.c(557):     hodResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(557): t=6723437ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") was successful, 408 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(570): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(570): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(573): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(573): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(573): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(573): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(573): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(576): web_custom_request("{userId}_4") started  	[MsgId: MMSG-26355]
+Action.c(576): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(576): Warning: The string '"Transaction_AccountNumber":"843200971","Transaction_Currency":"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transaction_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transaction_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transaction_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName":"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Alborg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Address_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_TrackingNumber":0' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"hexColor":"414141","productId":14,"quantity":1,"hasWarranty":false' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): t=6723438ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(576): t=6723438ms: 680-byte request headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     POST /order/api/v1/orders/users/442056830 HTTP/1.1\r\n
+Action.c(576):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Referer: http://18.212.178.84/\r\n
+Action.c(576):     Origin: http://18.212.178.84\r\n
+Action.c(576):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(576):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(576):     Accept-Encoding: gzip, deflate\r\n
+Action.c(576):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(576):     Accept: */*\r\n
+Action.c(576):     Connection: Keep-Alive\r\n
+Action.c(576):     Host: 18.212.178.84\r\n
+Action.c(576):     Cookie: JSESSIONID=386960D02AC8DD177AE24DC92328D67E; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(576):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(576):     %7D; _gat=1\r\n
+Action.c(576):     Content-Length: 1003\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6723439ms: 1003-byte request body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"orderPaymentInformation":{"Transaction_AccountNumber":"843200971","Transaction_Currency"
+Action.c(576):     :"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transac
+Action.c(576):     tion_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transacti
+Action.c(576):     on_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transactio
+Action.c(576):     n_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName"
+Action.c(576):     :"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"},"orderSh
+Action.c(576):     ippingInformation":{"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Al
+Action.c(576):     borg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","
+Action.c(576):     Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Addr
+Action.c(576):     ess_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_Tracking
+Action.c(576):     Number":0},"purchasedProducts":[{"hexColor":"414141","productId":14,"quantity":1,"hasWarra
+Action.c(576):     nty":false}]}
+Action.c(576): t=6723863ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     HTTP/1.1 200 \r\n
+Action.c(576):     Expires: 0\r\n
+Action.c(576):     Cache-control: no-store\r\n
+Action.c(576):     X-Content-Type-Options: nosniff\r\n
+Action.c(576):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(576):     X-Frame-Options: DENY\r\n
+Action.c(576):     vary: accept-encoding\r\n
+Action.c(576):     Content-Encoding: gzip\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Transfer-Encoding: chunked\r\n
+Action.c(576):     Date: Sat, 30 Apr 2022 04:48:42 GMT\r\n
+Action.c(576):     Keep-Alive: timeout=20\r\n
+Action.c(576):     Connection: keep-alive\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6723863ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     a\r\n
+Action.c(576): t=6723863ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     8f\r\n
+Action.c(576): t=6723864ms: 2-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576): t=6723864ms: 153-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576): t=6723864ms: 180-byte DECODED response body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"success":true,"code":"Ok","reason":"order completed successfully","orderNumber":89820506
+Action.c(576):     06,"paymentConfirmationNumber":8981644946,"trackingNumber":1650898719,"hasWarranty":false}
+Action.c(576): t=6723864ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     a\r\n
+Action.c(576): t=6723864ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     0\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6723864ms: 10-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576): t=6723864ms: Request done "http://18.212.178.84/order/api/v1/orders/users/442056830"  	[MsgId: MMSG-26000]
+Action.c(576): Registered web_reg_find successful for "Text=order completed successfully" (count=1)  	[MsgId: MMSG-26364]
+Action.c(576): web_custom_request("{userId}_4") was successful, 163 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(590): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(590): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(590): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(590): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(590): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(593): web_custom_request("{userId}_5") started  	[MsgId: MMSG-26355]
+Action.c(593): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(593): t=6723865ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(593): t=6723865ms: 640-byte request headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     DELETE /order/api/v1/carts/442056830 HTTP/1.1\r\n
+Action.c(593):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(593):     Referer: http://18.212.178.84/\r\n
+Action.c(593):     Origin: http://18.212.178.84\r\n
+Action.c(593):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(593):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(593):     Accept-Encoding: gzip, deflate\r\n
+Action.c(593):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(593):     Accept: */*\r\n
+Action.c(593):     Connection: Keep-Alive\r\n
+Action.c(593):     Host: 18.212.178.84\r\n
+Action.c(593):     Cookie: JSESSIONID=386960D02AC8DD177AE24DC92328D67E; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(593):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(593):     %7D; _gat=1\r\n
+Action.c(593):     Content-Length: 0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6724113ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     HTTP/1.1 200 \r\n
+Action.c(593):     Expires: 0\r\n
+Action.c(593):     Cache-control: no-store\r\n
+Action.c(593):     X-Content-Type-Options: nosniff\r\n
+Action.c(593):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(593):     X-Frame-Options: DENY\r\n
+Action.c(593):     vary: accept-encoding\r\n
+Action.c(593):     Content-Encoding: gzip\r\n
+Action.c(593):     Content-Type: application/json\r\n
+Action.c(593):     Transfer-Encoding: chunked\r\n
+Action.c(593):     Date: Sat, 30 Apr 2022 04:48:42 GMT\r\n
+Action.c(593):     Keep-Alive: timeout=20\r\n
+Action.c(593):     Connection: keep-alive\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6724114ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     a\r\n
+Action.c(593): t=6724114ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     2e\r\n
+Action.c(593): t=6724114ms: 2-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593): t=6724114ms: 56-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593): t=6724114ms: 40-byte DECODED response body for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     {"userId":442056830,"productsInCart":[]}
+Action.c(593): t=6724114ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     a\r\n
+Action.c(593): t=6724115ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6724115ms: 10-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593): t=6724115ms: Request done "http://18.212.178.84/order/api/v1/carts/442056830"  	[MsgId: MMSG-26000]
+Action.c(593): web_custom_request("{userId}_5") was successful, 66 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(603): Notify: Transaction "paymentDetails" ended with a "Pass" status (Duration: 11,1351 Think Time: 10,0032 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(605): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+Action.c(607): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(607): An unrecognized header ("Access-Control-Request-Headers") is being added  	[MsgId: MMSG-26595]
+Action.c(607): "Access-Control-Request-Headers: content-type,soapaction" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(607): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(610): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(610): An unrecognized header ("Access-Control-Request-Method") is being added  	[MsgId: MMSG-26595]
+Action.c(610): "Access-Control-Request-Method: POST" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(610): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(613): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(613): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(613): "Sec-Fetch-Mode: cors" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(613): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(616): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") started  	[MsgId: MMSG-26355]
+Action.c(545): t=6726303ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(545): t=6726303ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OPTIONS //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(545):     Referer: http://18.212.178.84/\r\n
+Action.c(545):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(545):     Access-Control-Request-Method: POST\r\n
+Action.c(545):     Sec-Fetch-Mode: cors\r\n
+Action.c(545):     Origin: http://18.212.178.84\r\n
+Action.c(545):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(545):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(545):     Accept-Encoding: gzip, deflate\r\n
+Action.c(545):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(545):     Accept: */*\r\n
+Action.c(545):     Connection: Keep-Alive\r\n
+Action.c(545):     Host: 18.212.178.84:8081\r\n
+Action.c(545):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(545):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(545):     Content-Length: 0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6726304ms: Inactive socket [1] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6726304ms: Closed connection [1] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6726304ms: Inactive socket [2] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6726304ms: Closed connection [2] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6726462ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     HTTP/1.1 200 \r\n
+Action.c(545):     X-Content-Type-Options: nosniff\r\n
+Action.c(545):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(545):     Cache-Control: no-store\r\n
+Action.c(545):     Pragma: no-cache\r\n
+Action.c(545):     Expires: 0\r\n
+Action.c(545):     X-Frame-Options: DENY\r\n
+Action.c(545):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Max-Age: 3600\r\n
+Action.c(545):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(545):     ion\r\n
+Action.c(545):     Access-Control-Allow-Origin: *\r\n
+Action.c(545):     Transfer-Encoding: chunked\r\n
+Action.c(545):     Date: Sat, 30 Apr 2022 04:48:45 GMT\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6726463ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     2\r\n
+Action.c(545): t=6726463ms: 2-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     \r\n
+Action.c(545): t=6726463ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OK
+Action.c(545): t=6726463ms: 5-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6726463ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(554): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(554): "SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(554): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(557): Notify: Next row for parameter safePayLogin = 1 [table  = safePayLogin].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayLogin" =  "Garret"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Next row for parameter safePayPassword = 1 [table  = safePayPassword].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayPassword" =  "1Jkl2"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(557): t=6726464ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(557): t=6726464ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     POST //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(557):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(557):     Referer: http://18.212.178.84/\r\n
+Action.c(557):     SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest\r\n
+Action.c(557):     Origin: http://18.212.178.84\r\n
+Action.c(557):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(557):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(557):     Accept-Encoding: gzip, deflate\r\n
+Action.c(557):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(557):     Accept: */*\r\n
+Action.c(557):     Connection: Keep-Alive\r\n
+Action.c(557):     Host: 18.212.178.84:8081\r\n
+Action.c(557):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(557):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(557):     Content-Length: 513\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6726464ms: 513-byte request body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(557):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(557):     www.w3.org/2001/XMLSchema"><soap:Body><AddSafePayMethodRequest xmlns="com.advantage.online
+Action.c(557):     .store.accountservice"><safePayUsername>Garret</safePayUsername><accountId>442056830</acco
+Action.c(557):     untId><safePayPassword>1Jkl2</safePayPassword><base64Token>Basic R2FycmV0MjMxOjFGYXMx</bas
+Action.c(557):     e64Token></AddSafePayMethodRequest></soap:Body></soap:Envelope>
+Action.c(557): t=6726630ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     HTTP/1.1 200 \r\n
+Action.c(557):     X-Content-Type-Options: nosniff\r\n
+Action.c(557):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(557):     Cache-Control: no-store\r\n
+Action.c(557):     Pragma: no-cache\r\n
+Action.c(557):     Expires: 0\r\n
+Action.c(557):     X-Frame-Options: DENY\r\n
+Action.c(557):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Max-Age: 3600\r\n
+Action.c(557):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(557):     ion\r\n
+Action.c(557):     Access-Control-Allow-Origin: *\r\n
+Action.c(557):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(557):     SOAPAction: ""\r\n
+Action.c(557):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(557):     Content-Length: 408\r\n
+Action.c(557):     Date: Sat, 30 Apr 2022 04:48:45 GMT\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6726631ms: 408-byte response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(557):     ader/><SOAP-ENV:Body><ns2:AddSafePayMethodResponse xmlns:ns2="com.advantage.online.store.a
+Action.c(557):     ccountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:id>0</ns2:id><ns2:re
+Action.c(557):     ason>SafePay data updated successfully</ns2:reason></ns2:StatusMessage></ns2:AddSafePayMet
+Action.c(557):     hodResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(557): t=6726632ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") was successful, 408 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(570): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(570): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(573): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(573): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(573): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(573): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(573): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(576): web_custom_request("{userId}_4") started  	[MsgId: MMSG-26355]
+Action.c(576): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(576): Warning: The string '"Transaction_AccountNumber":"843200971","Transaction_Currency":"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transaction_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transaction_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transaction_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName":"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Alborg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Address_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_TrackingNumber":0' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"hexColor":"414141","productId":14,"quantity":1,"hasWarranty":false' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): t=6726632ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(576): t=6726632ms: 680-byte request headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     POST /order/api/v1/orders/users/442056830 HTTP/1.1\r\n
+Action.c(576):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Referer: http://18.212.178.84/\r\n
+Action.c(576):     Origin: http://18.212.178.84\r\n
+Action.c(576):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(576):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(576):     Accept-Encoding: gzip, deflate\r\n
+Action.c(576):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(576):     Accept: */*\r\n
+Action.c(576):     Connection: Keep-Alive\r\n
+Action.c(576):     Host: 18.212.178.84\r\n
+Action.c(576):     Cookie: JSESSIONID=78BA34929FE892DDF8637AFDCABD4FDF; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(576):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(576):     %7D; _gat=1\r\n
+Action.c(576):     Content-Length: 1003\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6726633ms: 1003-byte request body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"orderPaymentInformation":{"Transaction_AccountNumber":"843200971","Transaction_Currency"
+Action.c(576):     :"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transac
+Action.c(576):     tion_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transacti
+Action.c(576):     on_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transactio
+Action.c(576):     n_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName"
+Action.c(576):     :"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"},"orderSh
+Action.c(576):     ippingInformation":{"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Al
+Action.c(576):     borg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","
+Action.c(576):     Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Addr
+Action.c(576):     ess_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_Tracking
+Action.c(576):     Number":0},"purchasedProducts":[{"hexColor":"414141","productId":14,"quantity":1,"hasWarra
+Action.c(576):     nty":false}]}
+Action.c(576): t=6727021ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     HTTP/1.1 200 \r\n
+Action.c(576):     Expires: 0\r\n
+Action.c(576):     Cache-control: no-store\r\n
+Action.c(576):     X-Content-Type-Options: nosniff\r\n
+Action.c(576):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(576):     X-Frame-Options: DENY\r\n
+Action.c(576):     vary: accept-encoding\r\n
+Action.c(576):     Content-Encoding: gzip\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Transfer-Encoding: chunked\r\n
+Action.c(576):     Date: Sat, 30 Apr 2022 04:48:45 GMT\r\n
+Action.c(576):     Keep-Alive: timeout=20\r\n
+Action.c(576):     Connection: keep-alive\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6727022ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     a\r\n
+Action.c(576): t=6727022ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     8f\r\n
+Action.c(576): t=6727022ms: 5-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     a\r\n
+Action.c(576): t=6727022ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     0\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6727022ms: 163-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576): t=6727022ms: 180-byte DECODED response body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"success":true,"code":"Ok","reason":"order completed successfully","orderNumber":89820506
+Action.c(576):     07,"paymentConfirmationNumber":8981644947,"trackingNumber":1650898720,"hasWarranty":false}
+Action.c(576): t=6727022ms: Request done "http://18.212.178.84/order/api/v1/orders/users/442056830"  	[MsgId: MMSG-26000]
+Action.c(576): Registered web_reg_find successful for "Text=order completed successfully" (count=1)  	[MsgId: MMSG-26364]
+Action.c(576): web_custom_request("{userId}_4") was successful, 163 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(590): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(590): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(590): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(590): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(590): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(593): web_custom_request("{userId}_5") started  	[MsgId: MMSG-26355]
+Action.c(593): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(593): t=6727023ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(593): t=6727023ms: 640-byte request headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     DELETE /order/api/v1/carts/442056830 HTTP/1.1\r\n
+Action.c(593):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(593):     Referer: http://18.212.178.84/\r\n
+Action.c(593):     Origin: http://18.212.178.84\r\n
+Action.c(593):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(593):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(593):     Accept-Encoding: gzip, deflate\r\n
+Action.c(593):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(593):     Accept: */*\r\n
+Action.c(593):     Connection: Keep-Alive\r\n
+Action.c(593):     Host: 18.212.178.84\r\n
+Action.c(593):     Cookie: JSESSIONID=78BA34929FE892DDF8637AFDCABD4FDF; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(593):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(593):     %7D; _gat=1\r\n
+Action.c(593):     Content-Length: 0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6727271ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     HTTP/1.1 200 \r\n
+Action.c(593):     Expires: 0\r\n
+Action.c(593):     Cache-control: no-store\r\n
+Action.c(593):     X-Content-Type-Options: nosniff\r\n
+Action.c(593):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(593):     X-Frame-Options: DENY\r\n
+Action.c(593):     vary: accept-encoding\r\n
+Action.c(593):     Content-Encoding: gzip\r\n
+Action.c(593):     Content-Type: application/json\r\n
+Action.c(593):     Transfer-Encoding: chunked\r\n
+Action.c(593):     Date: Sat, 30 Apr 2022 04:48:45 GMT\r\n
+Action.c(593):     Keep-Alive: timeout=20\r\n
+Action.c(593):     Connection: keep-alive\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6727272ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     a\r\n
+Action.c(593): t=6727272ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     2e\r\n
+Action.c(593): t=6727272ms: 5-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     a\r\n
+Action.c(593): t=6727273ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6727273ms: 66-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593): t=6727273ms: 40-byte DECODED response body for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     {"userId":442056830,"productsInCart":[]}
+Action.c(593): t=6727273ms: Request done "http://18.212.178.84/order/api/v1/carts/442056830"  	[MsgId: MMSG-26000]
+Action.c(593): web_custom_request("{userId}_5") was successful, 66 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(603): Notify: Transaction "paymentDetails" ended with a "Pass" status (Duration: 10,9752 Think Time: 10,0046 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(605): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+Action.c(607): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(607): An unrecognized header ("Access-Control-Request-Headers") is being added  	[MsgId: MMSG-26595]
+Action.c(607): "Access-Control-Request-Headers: content-type,soapaction" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(607): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(610): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(610): An unrecognized header ("Access-Control-Request-Method") is being added  	[MsgId: MMSG-26595]
+Action.c(610): "Access-Control-Request-Method: POST" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(610): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(613): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(613): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(613): "Sec-Fetch-Mode: cors" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(613): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(616): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") started  	[MsgId: MMSG-26355]
+Action.c(545): t=6728036ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(545): t=6728036ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OPTIONS //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(545):     Referer: http://18.212.178.84/\r\n
+Action.c(545):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(545):     Access-Control-Request-Method: POST\r\n
+Action.c(545):     Sec-Fetch-Mode: cors\r\n
+Action.c(545):     Origin: http://18.212.178.84\r\n
+Action.c(545):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(545):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(545):     Accept-Encoding: gzip, deflate\r\n
+Action.c(545):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(545):     Accept: */*\r\n
+Action.c(545):     Connection: Keep-Alive\r\n
+Action.c(545):     Host: 18.212.178.84:8081\r\n
+Action.c(545):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(545):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(545):     Content-Length: 0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6728037ms: Inactive socket [1] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6728037ms: Closed connection [1] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6728037ms: Inactive socket [2] was closed by 18.212.178.84:80, probably due to Keep-Alive timeout  	[MsgId: MMSG-26000]
+Action.c(545): t=6728037ms: Closed connection [2] to 18.212.178.84:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(545): t=6728189ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     HTTP/1.1 200 \r\n
+Action.c(545):     X-Content-Type-Options: nosniff\r\n
+Action.c(545):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(545):     Cache-Control: no-store\r\n
+Action.c(545):     Pragma: no-cache\r\n
+Action.c(545):     Expires: 0\r\n
+Action.c(545):     X-Frame-Options: DENY\r\n
+Action.c(545):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(545):     Access-Control-Max-Age: 3600\r\n
+Action.c(545):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(545):     ion\r\n
+Action.c(545):     Access-Control-Allow-Origin: *\r\n
+Action.c(545):     Transfer-Encoding: chunked\r\n
+Action.c(545):     Date: Sat, 30 Apr 2022 04:48:46 GMT\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6728190ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     2\r\n
+Action.c(545): t=6728190ms: 7-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     \r\n
+Action.c(545):     0\r\n
+Action.c(545):     \r\n
+Action.c(545): t=6728190ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1318)
+Action.c(545):     OK
+Action.c(545): t=6728191ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(545): web_custom_request("AddSafePayMethodRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(554): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(554): "SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(554): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(557): Notify: Next row for parameter safePayLogin = 1 [table  = safePayLogin].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayLogin" =  "Garret"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Next row for parameter safePayPassword = 1 [table  = safePayPassword].	[MsgId: MMSG-13876]
+Action.c(557): Notify: Parameter Substitution: parameter "safePayPassword" =  "1Jkl2"	[MsgId: MMSG-13992]
+Action.c(557): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(557): t=6728191ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(557): t=6728191ms: 688-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     POST //accountservice/ws/AddSafePayMethodRequest HTTP/1.1\r\n
+Action.c(557):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(557):     Referer: http://18.212.178.84/\r\n
+Action.c(557):     SOAPAction: com.advantage.online.store.accountserviceAddSafePayMethodRequest\r\n
+Action.c(557):     Origin: http://18.212.178.84\r\n
+Action.c(557):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(557):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(557):     Accept-Encoding: gzip, deflate\r\n
+Action.c(557):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(557):     Accept: */*\r\n
+Action.c(557):     Connection: Keep-Alive\r\n
+Action.c(557):     Host: 18.212.178.84:8081\r\n
+Action.c(557):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(557):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(557):     Content-Length: 513\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6728192ms: 513-byte request body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(557):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(557):     www.w3.org/2001/XMLSchema"><soap:Body><AddSafePayMethodRequest xmlns="com.advantage.online
+Action.c(557):     .store.accountservice"><safePayUsername>Garret</safePayUsername><accountId>442056830</acco
+Action.c(557):     untId><safePayPassword>1Jkl2</safePayPassword><base64Token>Basic R2FycmV0MjMxOjFGYXMx</bas
+Action.c(557):     e64Token></AddSafePayMethodRequest></soap:Body></soap:Envelope>
+Action.c(557): t=6728352ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     HTTP/1.1 200 \r\n
+Action.c(557):     X-Content-Type-Options: nosniff\r\n
+Action.c(557):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(557):     Cache-Control: no-store\r\n
+Action.c(557):     Pragma: no-cache\r\n
+Action.c(557):     Expires: 0\r\n
+Action.c(557):     X-Frame-Options: DENY\r\n
+Action.c(557):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(557):     Access-Control-Max-Age: 3600\r\n
+Action.c(557):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(557):     ion\r\n
+Action.c(557):     Access-Control-Allow-Origin: *\r\n
+Action.c(557):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(557):     SOAPAction: ""\r\n
+Action.c(557):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(557):     Content-Length: 408\r\n
+Action.c(557):     Date: Sat, 30 Apr 2022 04:48:47 GMT\r\n
+Action.c(557):     \r\n
+Action.c(557): t=6728353ms: 408-byte response body for "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest" (RelFrameId=1, Internal ID=1319)
+Action.c(557):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(557):     ader/><SOAP-ENV:Body><ns2:AddSafePayMethodResponse xmlns:ns2="com.advantage.online.store.a
+Action.c(557):     ccountservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:id>0</ns2:id><ns2:re
+Action.c(557):     ason>SafePay data updated successfully</ns2:reason></ns2:StatusMessage></ns2:AddSafePayMet
+Action.c(557):     hodResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(557): t=6728353ms: Request done "http://18.212.178.84:8081//accountservice/ws/AddSafePayMethodRequest"  	[MsgId: MMSG-26000]
+Action.c(557): web_custom_request("AddSafePayMethodRequest_2") was successful, 408 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(570): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(570): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(573): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(573): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(573): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(573): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(573): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(576): web_custom_request("{userId}_4") started  	[MsgId: MMSG-26355]
+Action.c(576): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(576): Warning: The string '"Transaction_AccountNumber":"843200971","Transaction_Currency":"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transaction_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transaction_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transaction_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName":"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Alborg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Address_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_TrackingNumber":0' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): Warning: The string '"hexColor":"414141","productId":14,"quantity":1,"hasWarranty":false' with parameter delimiters is not a parameter.	[MsgId: MWAR-13987]
+Action.c(576): t=6728354ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(576): t=6728354ms: 680-byte request headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     POST /order/api/v1/orders/users/442056830 HTTP/1.1\r\n
+Action.c(576):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Referer: http://18.212.178.84/\r\n
+Action.c(576):     Origin: http://18.212.178.84\r\n
+Action.c(576):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(576):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(576):     Accept-Encoding: gzip, deflate\r\n
+Action.c(576):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(576):     Accept: */*\r\n
+Action.c(576):     Connection: Keep-Alive\r\n
+Action.c(576):     Host: 18.212.178.84\r\n
+Action.c(576):     Cookie: JSESSIONID=6C0ABE7F0EE6CDC2CD3A25117C2B91C6; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(576):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(576):     %7D; _gat=1\r\n
+Action.c(576):     Content-Length: 1003\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6728355ms: 1003-byte request body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"orderPaymentInformation":{"Transaction_AccountNumber":"843200971","Transaction_Currency"
+Action.c(576):     :"USD","Transaction_CustomerPhone":450001,"Transaction_MasterCredit_CVVNumber":"","Transac
+Action.c(576):     tion_MasterCredit_CardNumber":"4886","Transaction_MasterCredit_CustomerName":"","Transacti
+Action.c(576):     on_MasterCredit_ExpirationDate":"122027","Transaction_PaymentMethod":"SafePay","Transactio
+Action.c(576):     n_ReferenceNumber":0,"Transaction_SafePay_Password":"1Jkl2","Transaction_SafePay_UserName"
+Action.c(576):     :"Garret1","Transaction_TransactionDate":"29042022","Transaction_Type":"PAYMENT"},"orderSh
+Action.c(576):     ippingInformation":{"Shipping_Address_Address":"Velgarde 2501","Shipping_Address_City":"Al
+Action.c(576):     borg","Shipping_Address_CountryCode":82,"Shipping_Address_CustomerName":"Garret Mitchel","
+Action.c(576):     Shipping_Address_CustomerPhone":450001,"Shipping_Address_PostalCode":"0929","Shipping_Addr
+Action.c(576):     ess_State":"region","Shipping_Cost":39.99,"Shipping_NumberOfProducts":1,"Shipping_Tracking
+Action.c(576):     Number":0},"purchasedProducts":[{"hexColor":"414141","productId":14,"quantity":1,"hasWarra
+Action.c(576):     nty":false}]}
+Action.c(576): t=6728755ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     HTTP/1.1 200 \r\n
+Action.c(576):     Expires: 0\r\n
+Action.c(576):     Cache-control: no-store\r\n
+Action.c(576):     X-Content-Type-Options: nosniff\r\n
+Action.c(576):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(576):     X-Frame-Options: DENY\r\n
+Action.c(576):     vary: accept-encoding\r\n
+Action.c(576):     Content-Encoding: gzip\r\n
+Action.c(576):     Content-Type: application/json\r\n
+Action.c(576):     Transfer-Encoding: chunked\r\n
+Action.c(576):     Date: Sat, 30 Apr 2022 04:48:47 GMT\r\n
+Action.c(576):     Keep-Alive: timeout=20\r\n
+Action.c(576):     Connection: keep-alive\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6728755ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     a\r\n
+Action.c(576): t=6728755ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     8f\r\n
+Action.c(576): t=6728756ms: 2-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576): t=6728756ms: 153-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576): t=6728756ms: 180-byte DECODED response body for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     {"success":true,"code":"Ok","reason":"order completed successfully","orderNumber":89820506
+Action.c(576):     08,"paymentConfirmationNumber":8981644948,"trackingNumber":1650898721,"hasWarranty":false}
+Action.c(576): t=6728756ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     a\r\n
+Action.c(576): t=6728756ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576):     \r\n
+Action.c(576):     0\r\n
+Action.c(576):     \r\n
+Action.c(576): t=6728756ms: 10-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/orders/users/442056830" (RelFrameId=1, Internal ID=1320)
+Action.c(576): t=6728756ms: Request done "http://18.212.178.84/order/api/v1/orders/users/442056830"  	[MsgId: MMSG-26000]
+Action.c(576): Registered web_reg_find successful for "Text=order completed successfully" (count=1)  	[MsgId: MMSG-26364]
+Action.c(576): web_custom_request("{userId}_4") was successful, 163 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(590): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(590): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(590): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(590): "Authorization: Basic R2FycmV0MjMxOjFGYXMx" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(590): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(593): web_custom_request("{userId}_5") started  	[MsgId: MMSG-26355]
+Action.c(593): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(593): t=6728757ms: Already connected [0] to 18.212.178.84:80  	[MsgId: MMSG-26000]
+Action.c(593): t=6728757ms: 640-byte request headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     DELETE /order/api/v1/carts/442056830 HTTP/1.1\r\n
+Action.c(593):     Authorization: Basic R2FycmV0MjMxOjFGYXMx\r\n
+Action.c(593):     Referer: http://18.212.178.84/\r\n
+Action.c(593):     Origin: http://18.212.178.84\r\n
+Action.c(593):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(593):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(593):     Accept-Encoding: gzip, deflate\r\n
+Action.c(593):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(593):     Accept: */*\r\n
+Action.c(593):     Connection: Keep-Alive\r\n
+Action.c(593):     Host: 18.212.178.84\r\n
+Action.c(593):     Cookie: JSESSIONID=6C0ABE7F0EE6CDC2CD3A25117C2B91C6; _ga=GA1.1.466099567.1651246184; _gid=
+Action.c(593):     GA1.1.1345724349.1651246184; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D
+Action.c(593):     %7D; _gat=1\r\n
+Action.c(593):     Content-Length: 0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6729006ms: 335-byte response headers for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     HTTP/1.1 200 \r\n
+Action.c(593):     Expires: 0\r\n
+Action.c(593):     Cache-control: no-store\r\n
+Action.c(593):     X-Content-Type-Options: nosniff\r\n
+Action.c(593):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(593):     X-Frame-Options: DENY\r\n
+Action.c(593):     vary: accept-encoding\r\n
+Action.c(593):     Content-Encoding: gzip\r\n
+Action.c(593):     Content-Type: application/json\r\n
+Action.c(593):     Transfer-Encoding: chunked\r\n
+Action.c(593):     Date: Sat, 30 Apr 2022 04:48:47 GMT\r\n
+Action.c(593):     Keep-Alive: timeout=20\r\n
+Action.c(593):     Connection: keep-alive\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6729007ms: 3-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     a\r\n
+Action.c(593): t=6729007ms: 6-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     2e\r\n
+Action.c(593): t=6729007ms: 5-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     a\r\n
+Action.c(593): t=6729007ms: 7-byte chunked response overhead for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     \r\n
+Action.c(593):     0\r\n
+Action.c(593):     \r\n
+Action.c(593): t=6729008ms: 66-byte ENCODED response body received for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593): t=6729008ms: 40-byte DECODED response body for "http://18.212.178.84/order/api/v1/carts/442056830" (RelFrameId=1, Internal ID=1321)
+Action.c(593):     {"userId":442056830,"productsInCart":[]}
+Action.c(593): t=6729008ms: Request done "http://18.212.178.84/order/api/v1/carts/442056830"  	[MsgId: MMSG-26000]
+Action.c(593): web_custom_request("{userId}_5") was successful, 66 body bytes, 335 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(603): Notify: Transaction "paymentDetails" ended with a "Pass" status (Duration: 10,9834 Think Time: 10,0105 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(605): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+Action.c(607): web_add_header("Access-Control-Request-Headers") started  	[MsgId: MMSG-26355]
+Action.c(607): An unrecognized header ("Access-Control-Request-Headers") is being added  	[MsgId: MMSG-26595]
+Action.c(607): "Access-Control-Request-Headers: content-type,soapaction" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(607): web_add_header("Access-Control-Request-Headers") was successful  	[MsgId: MMSG-26392]
+Action.c(610): web_add_header("Access-Control-Request-Method") started  	[MsgId: MMSG-26355]
+Action.c(610): An unrecognized header ("Access-Control-Request-Method") is being added  	[MsgId: MMSG-26595]
+Action.c(610): "Access-Control-Request-Method: POST" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(610): web_add_header("Access-Control-Request-Method") was successful  	[MsgId: MMSG-26392]
+Action.c(613): web_add_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(613): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(613): "Sec-Fetch-Mode: cors" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(613): web_add_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(616): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(618): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(618): t=6734119ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(618): t=6734119ms: 685-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OPTIONS //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(618):     Referer: http://18.212.178.84/\r\n
+Action.c(618):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(618):     Access-Control-Request-Method: POST\r\n
+Action.c(618):     Sec-Fetch-Mode: cors\r\n
+Action.c(618):     Origin: http://18.212.178.84\r\n
+Action.c(618):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(618):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(618):     Accept-Encoding: gzip, deflate\r\n
+Action.c(618):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(618):     Accept: */*\r\n
+Action.c(618):     Connection: Keep-Alive\r\n
+Action.c(618):     Host: 18.212.178.84:8081\r\n
+Action.c(618):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(618):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(618):     Content-Length: 0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6734272ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     HTTP/1.1 200 \r\n
+Action.c(618):     X-Content-Type-Options: nosniff\r\n
+Action.c(618):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(618):     Cache-Control: no-store\r\n
+Action.c(618):     Pragma: no-cache\r\n
+Action.c(618):     Expires: 0\r\n
+Action.c(618):     X-Frame-Options: DENY\r\n
+Action.c(618):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Max-Age: 3600\r\n
+Action.c(618):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(618):     ion\r\n
+Action.c(618):     Access-Control-Allow-Origin: *\r\n
+Action.c(618):     Transfer-Encoding: chunked\r\n
+Action.c(618):     Date: Sat, 30 Apr 2022 04:48:53 GMT\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6734273ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     2\r\n
+Action.c(618): t=6734273ms: 7-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     \r\n
+Action.c(618):     0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6734273ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OK
+Action.c(618): t=6734273ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(618): web_custom_request("AccountLogoutRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(627): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(627): "SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(627): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(630): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(630): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(633): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(633): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(633): t=6734274ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(633): t=6734274ms: 682-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     POST //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(633):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(633):     Referer: http://18.212.178.84/\r\n
+Action.c(633):     SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest\r\n
+Action.c(633):     Origin: http://18.212.178.84\r\n
+Action.c(633):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(633):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(633):     Accept-Encoding: gzip, deflate\r\n
+Action.c(633):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(633):     Accept: */*\r\n
+Action.c(633):     Connection: Keep-Alive\r\n
+Action.c(633):     Host: 18.212.178.84:8081\r\n
+Action.c(633):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(633):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(633):     Content-Length: 426\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6734275ms: 426-byte request body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(633):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(633):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.st
+Action.c(633):     ore.accountservice"><loginUser>442056830</loginUser><base64Token>Basic R2FycmV0MjMxOjFGYXM
+Action.c(633):     x</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+Action.c(633): t=6734520ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     HTTP/1.1 200 \r\n
+Action.c(633):     X-Content-Type-Options: nosniff\r\n
+Action.c(633):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(633):     Cache-Control: no-store\r\n
+Action.c(633):     Pragma: no-cache\r\n
+Action.c(633):     Expires: 0\r\n
+Action.c(633):     X-Frame-Options: DENY\r\n
+Action.c(633):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Max-Age: 3600\r\n
+Action.c(633):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(633):     ion\r\n
+Action.c(633):     Access-Control-Allow-Origin: *\r\n
+Action.c(633):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(633):     SOAPAction: ""\r\n
+Action.c(633):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(633):     Content-Length: 402\r\n
+Action.c(633):     Date: Sat, 30 Apr 2022 04:48:53 GMT\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6734520ms: 402-byte response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(633):     ader/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.acco
+Action.c(633):     untservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>442056830</ns2:u
+Action.c(633):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+Action.c(633):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(633): t=6734521ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(633): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") was successful, 402 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(645): Notify: Transaction "logout" ended with a "Pass" status (Duration: 10,4060 Think Time: 10,0030 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(647): Notify: Transaction "UC03_buyHeadphonesLogitech" ended with a "Pass" status (Duration: 97,7351 Think Time: 80,0366 Wasted Time: 0,0004).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=6734521ms: Closed connection [0] to 18.212.178.84:80 after completing 18 request(s)  	[MsgId: MMSG-26000]
+t=6734522ms: Closed connection [3] to 18.212.178.84:8081 after completing 12 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 8 (thread 20320), ended OK."	[MsgId: MMSG-10695]
+Action.c(618): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(618): t=6737273ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(618): t=6737273ms: 685-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OPTIONS //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(618):     Referer: http://18.212.178.84/\r\n
+Action.c(618):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(618):     Access-Control-Request-Method: POST\r\n
+Action.c(618):     Sec-Fetch-Mode: cors\r\n
+Action.c(618):     Origin: http://18.212.178.84\r\n
+Action.c(618):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(618):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(618):     Accept-Encoding: gzip, deflate\r\n
+Action.c(618):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(618):     Accept: */*\r\n
+Action.c(618):     Connection: Keep-Alive\r\n
+Action.c(618):     Host: 18.212.178.84:8081\r\n
+Action.c(618):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(618):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(618):     Content-Length: 0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6737432ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     HTTP/1.1 200 \r\n
+Action.c(618):     X-Content-Type-Options: nosniff\r\n
+Action.c(618):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(618):     Cache-Control: no-store\r\n
+Action.c(618):     Pragma: no-cache\r\n
+Action.c(618):     Expires: 0\r\n
+Action.c(618):     X-Frame-Options: DENY\r\n
+Action.c(618):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Max-Age: 3600\r\n
+Action.c(618):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(618):     ion\r\n
+Action.c(618):     Access-Control-Allow-Origin: *\r\n
+Action.c(618):     Transfer-Encoding: chunked\r\n
+Action.c(618):     Date: Sat, 30 Apr 2022 04:48:56 GMT\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6737433ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     2\r\n
+Action.c(618): t=6737433ms: 2-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     \r\n
+Action.c(618): t=6737433ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OK
+Action.c(618): t=6737433ms: 5-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6737433ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(618): web_custom_request("AccountLogoutRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(627): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(627): "SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(627): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(630): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(630): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(633): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(633): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(633): t=6737434ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(633): t=6737434ms: 682-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     POST //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(633):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(633):     Referer: http://18.212.178.84/\r\n
+Action.c(633):     SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest\r\n
+Action.c(633):     Origin: http://18.212.178.84\r\n
+Action.c(633):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(633):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(633):     Accept-Encoding: gzip, deflate\r\n
+Action.c(633):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(633):     Accept: */*\r\n
+Action.c(633):     Connection: Keep-Alive\r\n
+Action.c(633):     Host: 18.212.178.84:8081\r\n
+Action.c(633):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(633):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(633):     Content-Length: 426\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6737434ms: 426-byte request body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(633):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(633):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.st
+Action.c(633):     ore.accountservice"><loginUser>442056830</loginUser><base64Token>Basic R2FycmV0MjMxOjFGYXM
+Action.c(633):     x</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+Action.c(633): t=6737685ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     HTTP/1.1 200 \r\n
+Action.c(633):     X-Content-Type-Options: nosniff\r\n
+Action.c(633):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(633):     Cache-Control: no-store\r\n
+Action.c(633):     Pragma: no-cache\r\n
+Action.c(633):     Expires: 0\r\n
+Action.c(633):     X-Frame-Options: DENY\r\n
+Action.c(633):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Max-Age: 3600\r\n
+Action.c(633):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(633):     ion\r\n
+Action.c(633):     Access-Control-Allow-Origin: *\r\n
+Action.c(633):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(633):     SOAPAction: ""\r\n
+Action.c(633):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(633):     Content-Length: 402\r\n
+Action.c(633):     Date: Sat, 30 Apr 2022 04:48:56 GMT\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6737686ms: 402-byte response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(633):     ader/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.acco
+Action.c(633):     untservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>442056830</ns2:u
+Action.c(633):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+Action.c(633):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(633): t=6737686ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(633): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") was successful, 402 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(645): Notify: Transaction "logout" ended with a "Pass" status (Duration: 10,4132 Think Time: 9,9995 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(647): Notify: Transaction "UC03_buyHeadphonesLogitech" ended with a "Pass" status (Duration: 97,8088 Think Time: 80,0529 Wasted Time: 0,0004).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=6737687ms: Closed connection [0] to 18.212.178.84:80 after completing 18 request(s)  	[MsgId: MMSG-26000]
+t=6737687ms: Closed connection [3] to 18.212.178.84:8081 after completing 12 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 9 (thread 24436), ended OK."	[MsgId: MMSG-10695]
+Action.c(618): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(618): t=6739018ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(618): t=6739018ms: 685-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OPTIONS //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(618):     Referer: http://18.212.178.84/\r\n
+Action.c(618):     Access-Control-Request-Headers: content-type,soapaction\r\n
+Action.c(618):     Access-Control-Request-Method: POST\r\n
+Action.c(618):     Sec-Fetch-Mode: cors\r\n
+Action.c(618):     Origin: http://18.212.178.84\r\n
+Action.c(618):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(618):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(618):     Accept-Encoding: gzip, deflate\r\n
+Action.c(618):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(618):     Accept: */*\r\n
+Action.c(618):     Connection: Keep-Alive\r\n
+Action.c(618):     Host: 18.212.178.84:8081\r\n
+Action.c(618):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(618):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(618):     Content-Length: 0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6739171ms: 500-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     HTTP/1.1 200 \r\n
+Action.c(618):     X-Content-Type-Options: nosniff\r\n
+Action.c(618):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(618):     Cache-Control: no-store\r\n
+Action.c(618):     Pragma: no-cache\r\n
+Action.c(618):     Expires: 0\r\n
+Action.c(618):     X-Frame-Options: DENY\r\n
+Action.c(618):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(618):     Access-Control-Max-Age: 3600\r\n
+Action.c(618):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(618):     ion\r\n
+Action.c(618):     Access-Control-Allow-Origin: *\r\n
+Action.c(618):     Transfer-Encoding: chunked\r\n
+Action.c(618):     Date: Sat, 30 Apr 2022 04:48:58 GMT\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6739171ms: 3-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     2\r\n
+Action.c(618): t=6739172ms: 2-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     \r\n
+Action.c(618): t=6739172ms: 2-byte chunked response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     OK
+Action.c(618): t=6739172ms: 5-byte chunked response overhead for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1322)
+Action.c(618):     0\r\n
+Action.c(618):     \r\n
+Action.c(618): t=6739172ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(618): web_custom_request("AccountLogoutRequest") was successful, 2 body bytes, 500 header bytes, 10 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(627): web_add_header("SOAPAction") started  	[MsgId: MMSG-26355]
+Action.c(627): "SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(627): web_add_header("SOAPAction") was successful  	[MsgId: MMSG-26392]
+Action.c(630): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(630): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") started  	[MsgId: MMSG-26355]
+Action.c(633): Notify: Parameter Substitution: parameter "userId" =  "442056830"	[MsgId: MMSG-13992]
+Action.c(633): Notify: Parameter Substitution: parameter "authorization" =  "R2FycmV0MjMxOjFGYXMx"	[MsgId: MMSG-13992]
+Action.c(633): t=6739173ms: Already connected [3] to 18.212.178.84:8081  	[MsgId: MMSG-26000]
+Action.c(633): t=6739173ms: 682-byte request headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     POST //accountservice/ws/AccountLogoutRequest HTTP/1.1\r\n
+Action.c(633):     Content-Type: text/xml; charset=UTF-8\r\n
+Action.c(633):     Referer: http://18.212.178.84/\r\n
+Action.c(633):     SOAPAction: com.advantage.online.store.accountserviceAccountLogoutRequest\r\n
+Action.c(633):     Origin: http://18.212.178.84\r\n
+Action.c(633):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(633):     o) Chrome/100.0.4896.127 Safari/537.36\r\n
+Action.c(633):     Accept-Encoding: gzip, deflate\r\n
+Action.c(633):     Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+Action.c(633):     Accept: */*\r\n
+Action.c(633):     Connection: Keep-Alive\r\n
+Action.c(633):     Host: 18.212.178.84:8081\r\n
+Action.c(633):     Cookie: _ga=GA1.1.466099567.1651246184; _gid=GA1.1.1345724349.1651246184; userCart=%7B%22u
+Action.c(633):     serId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _gat=1\r\n
+Action.c(633):     Content-Length: 426\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6739173ms: 426-byte request body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.or
+Action.c(633):     g/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://
+Action.c(633):     www.w3.org/2001/XMLSchema"><soap:Body><AccountLogoutRequest xmlns="com.advantage.online.st
+Action.c(633):     ore.accountservice"><loginUser>442056830</loginUser><base64Token>Basic R2FycmV0MjMxOjFGYXM
+Action.c(633):     x</base64Token></AccountLogoutRequest></soap:Body></soap:Envelope>
+Action.c(633): t=6739419ms: 619-byte response headers for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     HTTP/1.1 200 \r\n
+Action.c(633):     X-Content-Type-Options: nosniff\r\n
+Action.c(633):     X-XSS-Protection: 1; mode=block\r\n
+Action.c(633):     Cache-Control: no-store\r\n
+Action.c(633):     Pragma: no-cache\r\n
+Action.c(633):     Expires: 0\r\n
+Action.c(633):     X-Frame-Options: DENY\r\n
+Action.c(633):     Access-Control-Request-Method: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE\r\n
+Action.c(633):     Access-Control-Max-Age: 3600\r\n
+Action.c(633):     Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Key, soapact
+Action.c(633):     ion\r\n
+Action.c(633):     Access-Control-Allow-Origin: *\r\n
+Action.c(633):     Accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n
+Action.c(633):     SOAPAction: ""\r\n
+Action.c(633):     Content-Type: text/xml;charset=utf-8\r\n
+Action.c(633):     Content-Length: 402\r\n
+Action.c(633):     Date: Sat, 30 Apr 2022 04:48:58 GMT\r\n
+Action.c(633):     \r\n
+Action.c(633): t=6739420ms: 402-byte response body for "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest" (RelFrameId=1, Internal ID=1323)
+Action.c(633):     <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:He
+Action.c(633):     ader/><SOAP-ENV:Body><ns2:AccountLogoutResponse xmlns:ns2="com.advantage.online.store.acco
+Action.c(633):     untservice"><ns2:StatusMessage><ns2:success>true</ns2:success><ns2:userId>442056830</ns2:u
+Action.c(633):     serId><ns2:reason>Logout Successful</ns2:reason></ns2:StatusMessage></ns2:AccountLogoutRes
+Action.c(633):     ponse></SOAP-ENV:Body></SOAP-ENV:Envelope>
+Action.c(633): t=6739420ms: Request done "http://18.212.178.84:8081//accountservice/ws/AccountLogoutRequest"  	[MsgId: MMSG-26000]
+Action.c(633): Registered web_reg_find successful for "Text=Logout Successful" (count=1)  	[MsgId: MMSG-26364]
+Action.c(633): web_custom_request("AccountLogoutRequest_2") was successful, 402 body bytes, 619 header bytes  	[MsgId: MMSG-26386]
+Action.c(645): Notify: Transaction "logout" ended with a "Pass" status (Duration: 10,4125 Think Time: 10,0087 Wasted Time: 0,0000).	[MsgId: MMSG-16870]
+Action.c(647): Notify: Transaction "UC03_buyHeadphonesLogitech" ended with a "Pass" status (Duration: 97,4808 Think Time: 80,0507 Wasted Time: 0,0004).	[MsgId: MMSG-16870]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=6739421ms: Closed connection [0] to 18.212.178.84:80 after completing 10 request(s)  	[MsgId: MMSG-26000]
+t=6739421ms: Closed connection [3] to 18.212.178.84:8081 after completing 12 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=1, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 10 (thread 19548), ended OK."	[MsgId: MMSG-10695]

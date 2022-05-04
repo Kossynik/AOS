@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Agito 9551","addressLine2":"","city":"Soro","country":"dk","post"
+"alCode":"0929","state":"region"},"secustomerName":"Migel Prado","secustomerPhone":450005,"senu"
+"mberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"70736D3E5E1DC1AA8E1C188F8B4"
+"7346F"}"

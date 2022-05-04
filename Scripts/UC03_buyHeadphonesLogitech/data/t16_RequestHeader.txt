@@ -1,0 +1,20 @@
+POST /order/api/v1/carts/466394988/product/14/color/414141?quantity=1 HTTP/1.1
+Host: www.advantageonlineshopping.com
+Connection: keep-alive
+Content-Length: 42
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"
+Accept: application/json, text/plain, */*
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic S29zc3k6MUZhcw==
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: https://www.advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=66F110C18FF9FDAA6BEBCB3120CB6C2C; _ga=GA1.2.1346882120.1650622281; _gid=GA1.2.882881733.1650622281
+

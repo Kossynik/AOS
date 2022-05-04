@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Agito 9552","addressLine2":"","city":"Soro","country":"dk","post"
+"alCode":"0929","state":"region"},"secustomerName":"Joshua Label","secustomerPhone":450008,"sen"
+"umberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"AA364C3E783F7BABC4D77CA89F"
+"62D8E1"}"

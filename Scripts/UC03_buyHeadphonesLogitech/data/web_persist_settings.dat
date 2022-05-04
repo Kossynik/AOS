@@ -1,0 +1,17 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2022/04/23 05:58:14
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2022/04/29 16:46:28
+StartRecordingIsDst_2=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=Kossy
+Password_1_1=1Fas
+Realm_1_1=www.advantageonlineshopping.com:443
+EventId_1_1=243
+UserName_2_1=Garret231
+Password_2_1=1Fas1
+Realm_2_1=18.212.178.84:80
+EventId_2_1=829

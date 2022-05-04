@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Disance 3441","addressLine2":"","city":"Viborg","country":"dk",""
+"postalCode":"0929","state":"region"},"secustomerName":"Nancy Drys","secustomerPhone":450002,"s"
+"enumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"6DD10EA02722BB257AB17B56"
+"7455F60C"}"

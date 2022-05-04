@@ -1,0 +1,16 @@
+[t40]
+FileName1=t40_category-page.html
+URL1=http://18.212.178.84/app/views/category-page.html
+Total=6
+ContentType=image/png
+SnapshotXmlFile=snapshot_40.xml
+FileName2=t40_category_banner_2.png
+URL2=http://18.212.178.84/css/images/category_banner_2.png
+FileName3=t40_fetchImage.png
+URL3=http://18.212.178.84/catalog/fetchImage?image_id=2300
+FileName4=t40_fetchImage.jpg
+URL4=http://18.212.178.84/catalog/fetchImage?image_id=2200
+FileName5=t40_fetchImage.jpg
+URL5=http://18.212.178.84/catalog/fetchImage?image_id=2100
+FileName6=t40_fetchImage.jpg
+URL6=http://18.212.178.84/catalog/fetchImage?image_id=2400

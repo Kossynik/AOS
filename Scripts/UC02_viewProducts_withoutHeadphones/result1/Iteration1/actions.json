@@ -1,0 +1,123 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 18.212.178.84",
+                "infFile": "t1.inf",
+                "time": 1651250050546
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1651250051136
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: GetAccountConfigurationRequest_2",
+                "infFile": "t4.inf",
+                "time": 1651250051754
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: categories",
+                "infFile": "t5.inf",
+                "time": 1651250052072
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: search",
+                "infFile": "t6.inf",
+                "time": 1651250052347
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: home-page.html",
+                "infFile": "t7.inf",
+                "time": 1651250052973
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: products",
+                "infFile": "t8.inf",
+                "time": 1651250053353
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: attributes",
+                "infFile": "t9.inf",
+                "time": 1651250053625
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: category-page.html",
+                "infFile": "t10.inf",
+                "time": 1651250053813
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: products_2",
+                "infFile": "t11.inf",
+                "time": 1651250054217
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: products_3",
+                "infFile": "t12.inf",
+                "time": 1651250054616
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: products_4",
+                "infFile": "t13.inf",
+                "time": 1651250054992
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "homePage",
+                "rawStartTime": 1651250047600,
+                "rawEndTime": 1651250052982,
+                "thinkTime": 0.0,
+                "wastedTime": 0.20815658569335938
+            },
+            {
+                "transactionName": "clickSpeakers",
+                "rawStartTime": 1651250053013,
+                "rawEndTime": 1651250053825,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012140512466430664
+            },
+            {
+                "transactionName": "clickTablets",
+                "rawStartTime": 1651250053855,
+                "rawEndTime": 1651250054230,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004163503646850586
+            },
+            {
+                "transactionName": "clickLaptops",
+                "rawStartTime": 1651250054261,
+                "rawEndTime": 1651250054620,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005630970001220703
+            },
+            {
+                "transactionName": "clickMice",
+                "rawStartTime": 1651250054650,
+                "rawEndTime": 1651250054995,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034716129302978517
+            },
+            {
+                "transactionName": "UC02_viewProducts_withoutHeadphones",
+                "rawStartTime": 1651250047585,
+                "rawEndTime": 1651250055010,
+                "thinkTime": 0.0,
+                "wastedTime": 0.23356318473815919
+            }
+        ]
+    }
+]

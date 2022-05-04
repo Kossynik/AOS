@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Velgarde 2502","addressLine2":"","city":"Alborg","country":"dk","
+""postalCode":"0929","state":"region"},"secustomerName":"Piralo Vaskes","secustomerPhone":45000"
+"3,"senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"6BB8A70F549EB8B14634"
+"C2B1D90268F5"}"

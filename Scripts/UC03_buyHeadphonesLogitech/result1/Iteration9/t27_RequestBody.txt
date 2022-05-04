@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Disance 3444","addressLine2":"","city":"Viborg","country":"dk",""
+"postalCode":"0929","state":"region"},"secustomerName":"Alex Velis","secustomerPhone":450009,"s"
+"enumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"67606DB3C2166123ED8FA8CA"
+"3A0C3E9B"}"

@@ -1,0 +1,4 @@
+"{"seaddress":{"addressLine1":"Disance 3443","addressLine2":"","city":"Viborg","country":"dk",""
+"postalCode":"0929","state":"region"},"secustomerName":"Brand Fintch","secustomerPhone":450006,"
+""senumberOfProducts":1,"setransactionType":"SHIPPING_COST","sessionId":"6DCC124A8200ADF928A0A0"
+"8ACBF9B0BF"}"

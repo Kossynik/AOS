@@ -1,0 +1,15 @@
+[t48]
+FileName1=t48.htm
+URL1=http://18.212.178.84/app/views/shoppingCart.html
+Total=3
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t48_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_48.xml
+FileName2=t48_Master_credit.png
+URL2=http://18.212.178.84/css/images/Master_credit.png
+FileName3=t48_SafePay.png
+URL3=http://18.212.178.84/css/images/SafePay.png
+[ProtocolInfo]
+ProtocolId=QTWeb
